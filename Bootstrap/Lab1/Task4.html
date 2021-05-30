@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rowspan & colspan</title>
+	<style type="text/css">
+		table, td{
+			border: 1px solid black;
+			padding: 3px;
+		}
+		div div{
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<div style="font-weight: bold; font-size: 20px"> Using Rowspan</div>
+	<table>
+		<tr>
+		<td rowspan="3">User Info</td>
+		<td>1</td>
+		<td>John Carter</td>
+		<td>johncarter@mail.com</td>
+		</tr>
+		<tr>
+		<td>2</td>
+		<td>Peter Parker</td>
+		<td>johncarter@mail.com</td>
+		</tr>
+		<td>3</td>
+		<td>John Rambo</td>
+		<td>johncarter@mail.com</td>
+		</tr>
+	</table>
+
+	<div style="font-weight: bold; font-size: 20px"> Using Colspan</div>
+	<table>
+		<tr>
+		<td colspan="3" style="text-align: center;">User Info</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>John Carter</td>
+		<td>johncarter@mail.com</td>
+		</tr>
+		<tr>
+		<td>2</td>
+		<td>Peter Parker</td>
+		<td>johncarter@mail.com</td>
+		</tr>
+		<td>3</td>
+		<td>John Rambo</td>
+		<td>johncarter@mail.com</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
